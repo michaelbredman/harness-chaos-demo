@@ -444,6 +444,7 @@ spec:
   selector:
     matchLabels:
       app: cartservice
+  replicas: 3
   template:
     metadata:
       labels:
